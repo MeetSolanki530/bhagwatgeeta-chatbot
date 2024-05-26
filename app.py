@@ -18,7 +18,7 @@ load_dotenv()
 os.environ['GOOGLE_API_KEY'] = os.getenv("GOOGLE_API_KEY")
 groq_api_key = os.getenv('GROQ_API_KEY')
 
-st.title("Mahabharata Chatbot")
+st.title("Bhagwat-Gita Chatbot")
 
 # Beta message
 st.info("This webpage is in beta phase and it will be developed over time.")
