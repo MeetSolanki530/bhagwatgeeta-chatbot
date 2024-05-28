@@ -24,7 +24,7 @@ st.title("Bhagwat-Gita Chatbot")
 st.info("This webpage is in beta phase and it will be developed over time.")
 
 # Initialize the ChatGroq model
-llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
+llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama3-70b-8192")
 
 # Define the prompt template
 prompt = ChatPromptTemplate.from_template(
